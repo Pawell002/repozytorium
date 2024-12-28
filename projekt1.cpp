@@ -25,7 +25,11 @@ int main() {
         cout << "MENU" << endl;
         cout << "Podaj numer czynnosci, ktora chcesz wykonac" << endl;
         cout << "0. Wyjscie" << endl;
+	cout << "2. pierwsza" << endl;
         cin >> wyjscie;
+	if(wyjscie == 2){
+		cout << czyPierwsza(b) << endl;
+	}
     } while(wyjscie != 0);
     return 0;
 }
